@@ -1,0 +1,210 @@
+[
+  {
+    "ts": 1755125206.92271,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "ASSALAM O ALAIKUM!",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755125208.7520242,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Wa Alaikum Assalam! How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755125219.6366541,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "How are you",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755125220.6079528,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "I'm here and ready to assist you! How can I help you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755125222.1204438,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "who are you",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755125223.109844,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "I am HAIL, your assistant here to provide helpful information and guidance in alignment with Deen. How can I assist you today?",
+    "verdict": "debounced",
+    "score": 0.0
+  },
+  {
+    "ts": 1755125268.9109418,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "great",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755125271.24196,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Thank you! How can I assist you today? If you have any questions or need guidance, feel free to ask.",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755127338.878927,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "ASSALAM O ALAIKUM!",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755127341.520654,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Wa Alaikum Assalam! How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755127342.034518,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "HOW ARE YOU",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755127343.639898,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "I'm here and ready to help you! How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755128698.611605,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "ASSALAM O ALAIKUM!",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755128700.1901922,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Wa Alaikum Assalam! How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755128870.798628,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "WAALAIKUM ASSALAM!",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755128872.300647,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Wa Alaikum Assalam! How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755128881.405953,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "WHO ARE YOU",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755128882.726502,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "I am HAIL, your assistant here to provide helpful information while aligning with Islamic teachings. How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755128911.607616,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "CAN YOU ASSIST ME EVERY KIND OF WORK",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755128913.535553,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "I’m here to help with a variety of topics, especially those aligned with Islamic teachings. If you have specific questions or tasks in mind, feel free to share, and I’ll do my best to assist you within the bounds of Qur’an and Sunnah.",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755128934.339395,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "i want to do business",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755128939.188523,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "That’s great to hear! Starting a business can be a rewarding endeavor. To ensure your business aligns with Islamic principles, consider the following steps:\n\n1. **Choose a Permissible Business**: Ensure that the products or services you offer are halal and do not involve any prohibited activities, such as gambling or alcohol.\n\n2. **Plan Your Business**: Create a solid business plan that outlines your goals, target market, and financial projections.\n\n3. **Seek Knowledge**: Educate yourself about the market and the specific industry you want to enter. Knowledge is key to success.\n\n4. **Ethical Practices**: Conduct your business with honesty and integrity, adhering to ethical standards in all dealings.\n\n5. **Dua and Guidance**: Make dua for success and seek guidance from knowledgeable individuals or mentors in your field.\n\nIf you have a specific business idea in mind, feel free to share, and I can offer more tailored advice!",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755129053.829049,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "who is our last prophet",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755129055.461152,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Our last prophet is Prophet Muhammad (peace be upon him). He is regarded as the final messenger in Islam, and his teachings complete the message of previous prophets. If you have any questions about his life or teachings, feel free to ask!",
+    "verdict": "shubha",
+    "score": 0.399
+  },
+  {
+    "ts": 1755129071.9161248,
+    "actor_id": "user_web",
+    "role": "user",
+    "text": "ALHAMDULLILLAH",
+    "verdict": null,
+    "score": null
+  },
+  {
+    "ts": 1755129073.648428,
+    "actor_id": "user_web",
+    "role": "assistant",
+    "text": "Alhamdulillah! It's wonderful to express gratitude. How can I assist you today?",
+    "verdict": "shubha",
+    "score": 0.399
+  }
+]

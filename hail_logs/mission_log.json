@@ -1,0 +1,1822 @@
+[
+  {
+    "entry_id": "00000001",
+    "timestamp": "2025-08-12T19:33:51.040683+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "97fbfc8b-8d01-4e45-aa93-41ebb8a2f12a",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "",
+    "curr_hash": "f8c6da34f32e6df45d9046d1055e79f38adeb3240db61bf8d4ee768a36039ac8"
+  },
+  {
+    "entry_id": "00000002",
+    "timestamp": "2025-08-13T18:42:58.068118+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "2c585c72-e5f6-4779-909f-414a276c7008",
+      "payload": {
+        "text": "Hi"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "f8c6da34f32e6df45d9046d1055e79f38adeb3240db61bf8d4ee768a36039ac8",
+    "curr_hash": "803b90ea44723a128420501f7693df38d63056cd8169758054e9b33dfa0b4df4"
+  },
+  {
+    "entry_id": "00000003",
+    "timestamp": "2025-08-13T18:43:45.538470+00:00",
+    "actor_id": "ui",
+    "activity": "system_event",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [
+      "control",
+      "mode",
+      "ui"
+    ],
+    "payload": {
+      "event_id": "7ae05e2d-db29-4003-9f49-8616dfc10ef6",
+      "payload": {
+        "event": "quick_action",
+        "q": "Calculate Zakat for savings of 1,000,000 PKR"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "control",
+        "mode",
+        "ui"
+      ]
+    },
+    "prev_hash": "803b90ea44723a128420501f7693df38d63056cd8169758054e9b33dfa0b4df4",
+    "curr_hash": "4657aa202e5eedefc7c7be294773325726be6fc96405fbb339c55b3535703471"
+  },
+  {
+    "entry_id": "00000004",
+    "timestamp": "2025-08-13T18:43:45.554439+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "halal",
+    "score": 0.07109,
+    "reasons": [
+      "Matched allow keywords: zakat",
+      "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+    ],
+    "tags": [
+      "islamic",
+      "zakat"
+    ],
+    "payload": {
+      "event_id": "c3e8f34b-a18d-441c-bfb2-bc7e7d4bb768",
+      "payload": {
+        "text": "Calculate Zakat for savings of 1,000,000 PKR"
+      },
+      "classification": {
+        "verdict": "halal",
+        "confidence": 0.37,
+        "reasons": [
+          "Matched allow keywords: zakat"
+        ]
+      },
+      "risk": {
+        "score": 0.071,
+        "reasons": [
+          "Matched allow keywords: zakat",
+          "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "islamic",
+        "zakat"
+      ]
+    },
+    "prev_hash": "4657aa202e5eedefc7c7be294773325726be6fc96405fbb339c55b3535703471",
+    "curr_hash": "72f0b09cdcbc4f3cfe5739a4cd7ece9c60faaf17a62426ce43278bde4f240896"
+  },
+  {
+    "entry_id": "00000005",
+    "timestamp": "2025-08-13T18:50:14.448851+00:00",
+    "actor_id": "system:refresher",
+    "activity": "maintenance_run",
+    "verdict": "halal",
+    "score": 0.05,
+    "reasons": [
+      "Refresher completed: 7/7 tasks ok"
+    ],
+    "tags": [
+      "maintenance",
+      "refresher",
+      "system"
+    ],
+    "payload": {
+      "run_id": "3acf5acc-7a4a-474b-9247-80085793643e",
+      "started_at": "2025-08-13T18:50:14.441087+00:00",
+      "finished_at": "2025-08-13T18:50:14.441630+00:00",
+      "results": [
+        {
+          "name": "purge_caches",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "shrink_metrics",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "reload_activity_classifier",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "rotate_ephemeral_keys",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "health_check_subsystems",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "read_taqwa_level",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "warm_guardian_paths",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        }
+      ]
+    },
+    "prev_hash": "72f0b09cdcbc4f3cfe5739a4cd7ece9c60faaf17a62426ce43278bde4f240896",
+    "curr_hash": "20a17c92269e17b8796551cf5234677cdfbe5c104f9a9274e63f38e2f294a56d"
+  },
+  {
+    "entry_id": "00000006",
+    "timestamp": "2025-08-13T18:50:23.832882+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "0d2b6816-4677-495e-a0b6-3c7eaceb2ed9",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "20a17c92269e17b8796551cf5234677cdfbe5c104f9a9274e63f38e2f294a56d",
+    "curr_hash": "3475dda44466d23226d73b4f06b3886d48153f3b1195b40d7dee5b8ef4484c36"
+  },
+  {
+    "entry_id": "00000007",
+    "timestamp": "2025-08-13T19:25:16.178944+00:00",
+    "actor_id": "ui",
+    "activity": "content_view",
+    "verdict": "halal",
+    "score": 0.07109,
+    "reasons": [
+      "Matched allow keywords: education",
+      "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+    ],
+    "tags": [
+      "ayah",
+      "education",
+      "islamic"
+    ],
+    "payload": {
+      "event_id": "b2b07055-2ca9-4d17-9ffd-a382e324efc9",
+      "payload": {
+        "title": "Ayah 4:135 — Justice",
+        "text": "O you who believe! Stand firmly for justice as witnesses to Allah, even if against yourselves.",
+        "category": "ayah_drawer"
+      },
+      "classification": {
+        "verdict": "halal",
+        "confidence": 0.37,
+        "reasons": [
+          "Matched allow keywords: education"
+        ]
+      },
+      "risk": {
+        "score": 0.071,
+        "reasons": [
+          "Matched allow keywords: education",
+          "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "ayah",
+        "education",
+        "islamic"
+      ]
+    },
+    "prev_hash": "3475dda44466d23226d73b4f06b3886d48153f3b1195b40d7dee5b8ef4484c36",
+    "curr_hash": "57cc8cca4b6bb8ed53134cb1889b981784f6d1145e5a88fe9e4771be5b00cd66"
+  },
+  {
+    "entry_id": "00000008",
+    "timestamp": "2025-08-13T19:25:19.189164+00:00",
+    "actor_id": "ui",
+    "activity": "content_view",
+    "verdict": "halal",
+    "score": 0.07109,
+    "reasons": [
+      "Matched allow keywords: education",
+      "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+    ],
+    "tags": [
+      "ayah",
+      "education",
+      "islamic"
+    ],
+    "payload": {
+      "event_id": "71b70811-a9fb-4105-a2fa-193a44191b9e",
+      "payload": {
+        "title": "Ayah 4:135 — Justice",
+        "text": "O you who believe! Stand firmly for justice as witnesses to Allah, even if against yourselves.",
+        "category": "ayah_drawer"
+      },
+      "classification": {
+        "verdict": "halal",
+        "confidence": 0.37,
+        "reasons": [
+          "Matched allow keywords: education"
+        ]
+      },
+      "risk": {
+        "score": 0.071,
+        "reasons": [
+          "Matched allow keywords: education",
+          "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "ayah",
+        "education",
+        "islamic"
+      ]
+    },
+    "prev_hash": "57cc8cca4b6bb8ed53134cb1889b981784f6d1145e5a88fe9e4771be5b00cd66",
+    "curr_hash": "94451c5085c42f53f455fd3f242a10bf20da1c25c22750b672de9bbc67dc080c"
+  },
+  {
+    "entry_id": "00000009",
+    "timestamp": "2025-08-13T19:25:19.832571+00:00",
+    "actor_id": "ui",
+    "activity": "content_view",
+    "verdict": "halal",
+    "score": 0.07109,
+    "reasons": [
+      "Matched allow keywords: education",
+      "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+    ],
+    "tags": [
+      "ayah",
+      "education",
+      "islamic"
+    ],
+    "payload": {
+      "event_id": "09f41026-3cdb-4cc1-b91b-1e22ab10ec9c",
+      "payload": {
+        "title": "Ayah 13:28 — Sukoon",
+        "text": "Verily, in the remembrance of Allah do hearts find rest.",
+        "category": "ayah_drawer"
+      },
+      "classification": {
+        "verdict": "halal",
+        "confidence": 0.37,
+        "reasons": [
+          "Matched allow keywords: education"
+        ]
+      },
+      "risk": {
+        "score": 0.071,
+        "reasons": [
+          "Matched allow keywords: education",
+          "Risk score=0.07 (verdict=halal, conf=0.37, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "ayah",
+        "education",
+        "islamic"
+      ]
+    },
+    "prev_hash": "94451c5085c42f53f455fd3f242a10bf20da1c25c22750b672de9bbc67dc080c",
+    "curr_hash": "d0793251b6a2afa146f284e59d66d8b924d8db979e4d70b5dbb45e4a92709bec"
+  },
+  {
+    "entry_id": "00000010",
+    "timestamp": "2025-08-13T19:25:31.312561+00:00",
+    "actor_id": "ui",
+    "activity": "system_event",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [
+      "control",
+      "mode",
+      "ui"
+    ],
+    "payload": {
+      "event_id": "90c5d4a1-2935-4857-bd16-88b4c779f453",
+      "payload": {
+        "event": "dhikr_reset"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "control",
+        "mode",
+        "ui"
+      ]
+    },
+    "prev_hash": "d0793251b6a2afa146f284e59d66d8b924d8db979e4d70b5dbb45e4a92709bec",
+    "curr_hash": "6709d06d9673f41f89b1f01f8a0dee26d2d3ce3db6799b99cd70e4ab26199ae4"
+  },
+  {
+    "entry_id": "00000011",
+    "timestamp": "2025-08-13T19:25:34.104177+00:00",
+    "actor_id": "system:refresher",
+    "activity": "maintenance_run",
+    "verdict": "halal",
+    "score": 0.05,
+    "reasons": [
+      "Refresher completed: 7/7 tasks ok"
+    ],
+    "tags": [
+      "maintenance",
+      "refresher",
+      "system"
+    ],
+    "payload": {
+      "run_id": "43ccd2ab-ae30-4c5d-a851-b6d847b762d1",
+      "started_at": "2025-08-13T19:25:34.101866+00:00",
+      "finished_at": "2025-08-13T19:25:34.101936+00:00",
+      "results": [
+        {
+          "name": "purge_caches",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "shrink_metrics",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "reload_activity_classifier",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "rotate_ephemeral_keys",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "health_check_subsystems",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "read_taqwa_level",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        },
+        {
+          "name": "warm_guardian_paths",
+          "ok": true,
+          "duration_ms": 0,
+          "details": {
+            "skip": "no-hook"
+          }
+        }
+      ]
+    },
+    "prev_hash": "6709d06d9673f41f89b1f01f8a0dee26d2d3ce3db6799b99cd70e4ab26199ae4",
+    "curr_hash": "429eb1ca4ffc06fc87c50f6cdbec4a637141bdc655a4e97978e5549a590cac6e"
+  },
+  {
+    "entry_id": "00000012",
+    "timestamp": "2025-08-13T19:29:27.001114+00:00",
+    "actor_id": "ui",
+    "activity": "system_event",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [
+      "control",
+      "mode",
+      "ui"
+    ],
+    "payload": {
+      "event_id": "49118772-6e32-4e87-a455-979985b77e81",
+      "payload": {
+        "event": "mode_change",
+        "mode": "emergency"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": [
+        "control",
+        "mode",
+        "ui"
+      ]
+    },
+    "prev_hash": "429eb1ca4ffc06fc87c50f6cdbec4a637141bdc655a4e97978e5549a590cac6e",
+    "curr_hash": "0286a49e32f5b50f243f133c89a734e5e277378bdd40e7956570ba120958b040"
+  },
+  {
+    "entry_id": "00000013",
+    "timestamp": "2025-08-13T19:37:11.683434+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "790312bf-ea7a-4e0f-bf07-a28151471a01",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "0286a49e32f5b50f243f133c89a734e5e277378bdd40e7956570ba120958b040",
+    "curr_hash": "6f324becf1b9b95c0e775521c197fee607dd8509fba39979c70535eebb8363f3"
+  },
+  {
+    "entry_id": "00000014",
+    "timestamp": "2025-08-13T20:41:00.477615+00:00",
+    "actor_id": "web_user",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "59cfe963-19e3-48c9-b1de-4afb52de241b",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "6f324becf1b9b95c0e775521c197fee607dd8509fba39979c70535eebb8363f3",
+    "curr_hash": "39ac9116e31397512847fbfe11ea1e2eb3fa607c2729c80b3ea9b403495aedcd"
+  },
+  {
+    "entry_id": "00000015",
+    "timestamp": "2025-08-13T21:36:03.873525+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "eef0e693-9734-4be3-b550-bd421cd227a7",
+      "payload": {
+        "text": "WAALAIKUM ASSAALM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "39ac9116e31397512847fbfe11ea1e2eb3fa607c2729c80b3ea9b403495aedcd",
+    "curr_hash": "9b81231b085afee3a151cacbfc4e338ee5e172c443d55df1a5d568b98ac5471f"
+  },
+  {
+    "entry_id": "00000016",
+    "timestamp": "2025-08-13T22:20:21.906828+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "0a7438d7-829d-4570-82e5-10fd9d318fe2",
+      "payload": {
+        "text": "WAALAIKUM ASSAALAM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "9b81231b085afee3a151cacbfc4e338ee5e172c443d55df1a5d568b98ac5471f",
+    "curr_hash": "78b53610282c37d2a37fa2516a5f1f8240b83d0e76ef3b13be58625f668b9f69"
+  },
+  {
+    "entry_id": "00000017",
+    "timestamp": "2025-08-13T22:20:34.959697+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "55954bec-b515-494e-a156-e8aca3694483",
+      "payload": {
+        "text": "How are you"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "78b53610282c37d2a37fa2516a5f1f8240b83d0e76ef3b13be58625f668b9f69",
+    "curr_hash": "55ade099918710cead484436615e9ea1eaa19c2fc1b7e126dbbf0434f6b69208"
+  },
+  {
+    "entry_id": "00000018",
+    "timestamp": "2025-08-13T22:21:04.958726+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "1db11035-7a36-4900-bbbc-b0e52439456d",
+      "payload": {
+        "text": "WAALAIKUM ASSALAM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "55ade099918710cead484436615e9ea1eaa19c2fc1b7e126dbbf0434f6b69208",
+    "curr_hash": "56a5fda3eb924c25098d23418bdca9f3e954c162ea0126ca406bf5bac84830eb"
+  },
+  {
+    "entry_id": "00000019",
+    "timestamp": "2025-08-13T22:22:08.949655+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "5edb891d-560e-4d29-be40-c9c553cfeed2",
+      "payload": {
+        "text": "give me naked pic"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "56a5fda3eb924c25098d23418bdca9f3e954c162ea0126ca406bf5bac84830eb",
+    "curr_hash": "d1a6642c30a5005031db81f6d069e1e3d31866fa66269e0d76ddeb389d44c995"
+  },
+  {
+    "entry_id": "00000020",
+    "timestamp": "2025-08-13T22:22:28.068356+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "c6ff013b-342c-4d64-9f83-d4d449aa7ed9",
+      "payload": {
+        "text": "who is the last prophet"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "d1a6642c30a5005031db81f6d069e1e3d31866fa66269e0d76ddeb389d44c995",
+    "curr_hash": "1c84c8f86bd9e70f17d54c6eaf32ea21f376ff1478a545c0f4cb9dd2fcf9e484"
+  },
+  {
+    "entry_id": "00000021",
+    "timestamp": "2025-08-13T22:23:19.165997+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "407cbc3f-652d-4446-806f-2bceeddaa0e0",
+      "payload": {
+        "text": "WAALAIKUM ASSALAM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "1c84c8f86bd9e70f17d54c6eaf32ea21f376ff1478a545c0f4cb9dd2fcf9e484",
+    "curr_hash": "fc52d3bc34f9f3f4e671b5936c03c5de69f84ec67369e815279516144ef1390f"
+  },
+  {
+    "entry_id": "00000022",
+    "timestamp": "2025-08-13T22:23:29.185890+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "df50d71b-7771-41bb-8e07-0ba59ff4ad55",
+      "payload": {
+        "text": "how are you brother"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "fc52d3bc34f9f3f4e671b5936c03c5de69f84ec67369e815279516144ef1390f",
+    "curr_hash": "080d04d0372ca4dfbd9bf9ec1b553fb7854ad44be1a7506a9c8985b364a78b25"
+  },
+  {
+    "entry_id": "00000023",
+    "timestamp": "2025-08-13T22:23:40.274613+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "e822b087-1525-44cc-b18b-1eb35323ff89",
+      "payload": {
+        "text": "who are youy"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "080d04d0372ca4dfbd9bf9ec1b553fb7854ad44be1a7506a9c8985b364a78b25",
+    "curr_hash": "f77c5f1a8e4b8cbaa1c0ea62703ae68a35ad38176605424cc3cf33b758d709a7"
+  },
+  {
+    "entry_id": "00000024",
+    "timestamp": "2025-08-13T22:23:47.477259+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "2c563cc0-c7ed-4111-bf75-80b2e6c0e351",
+      "payload": {
+        "text": "great"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "f77c5f1a8e4b8cbaa1c0ea62703ae68a35ad38176605424cc3cf33b758d709a7",
+    "curr_hash": "5b216f413740c6afaf18f86c6388fca5798891f9ea60b2c1e75c3607c7c3ca0c"
+  },
+  {
+    "entry_id": "00000025",
+    "timestamp": "2025-08-13T22:25:24.690089+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "aa47189c-e1ca-4e5e-a796-5940d837475f",
+      "payload": {
+        "text": "hail vision?"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "5b216f413740c6afaf18f86c6388fca5798891f9ea60b2c1e75c3607c7c3ca0c",
+    "curr_hash": "297090dc706d3b9c33c87420fb34ff0b60484daad8105aca2672a4bf5ce12b19"
+  },
+  {
+    "entry_id": "00000026",
+    "timestamp": "2025-08-13T22:25:48.910397+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "9ddac513-0ffb-4c1d-baff-d4b3afef9974",
+      "payload": {
+        "text": "MA SHA ALLAH"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "297090dc706d3b9c33c87420fb34ff0b60484daad8105aca2672a4bf5ce12b19",
+    "curr_hash": "e2f61e2cea9316cd9533365c23d84d84c6f2632b6af647ad9efd2888264ea4e3"
+  },
+  {
+    "entry_id": "00000027",
+    "timestamp": "2025-08-13T22:26:45.171447+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.85,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+      "Surge detected: EWMA=0.51 with 12 events in window."
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "db1e7d54-c66b-4c8a-be62-03e02f54f721",
+      "payload": {
+        "text": "WRITE ME A SCRIPT FOR SHEETS TO CONNECT MY GMAIL INTO IT AND BBRING THE MAILS FROM A SPECIFIC SNEDER"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.85,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+          "Surge detected: EWMA=0.51 with 12 events in window."
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "e2f61e2cea9316cd9533365c23d84d84c6f2632b6af647ad9efd2888264ea4e3",
+    "curr_hash": "b0e78e332ba9425983e07664d4fb4608388d2e416419bbe2cf51305d2f20afe9"
+  },
+  {
+    "entry_id": "00000028",
+    "timestamp": "2025-08-13T22:28:02.363046+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.85,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+      "Surge detected: EWMA=0.53 with 13 events in window."
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "06eb54f4-5d98-4daa-b1a8-b59b69905cb0",
+      "payload": {
+        "text": "give me the formula to find duplicates in a column using conditional formatting"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.85,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+          "Surge detected: EWMA=0.53 with 13 events in window."
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "b0e78e332ba9425983e07664d4fb4608388d2e416419bbe2cf51305d2f20afe9",
+    "curr_hash": "f39caef99806b78a99b62e96bb39453d40f5249c46ce98f963ec9714f2aaed67"
+  },
+  {
+    "entry_id": "00000029",
+    "timestamp": "2025-08-13T22:28:18.208815+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.85,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+      "Surge detected: EWMA=0.54 with 14 events in window."
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "0b256adb-640c-46f2-89f2-3d51fcf237ad",
+      "payload": {
+        "text": "Thanks"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.85,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+          "Surge detected: EWMA=0.54 with 14 events in window."
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "f39caef99806b78a99b62e96bb39453d40f5249c46ce98f963ec9714f2aaed67",
+    "curr_hash": "b48849edb58fe3ef867323e4851ab23bab5521c9ed68ec6cff09e59b08c30d7c"
+  },
+  {
+    "entry_id": "00000030",
+    "timestamp": "2025-08-13T22:28:37.930575+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.85,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+      "Surge detected: EWMA=0.55 with 15 events in window."
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "977db640-8af1-4b52-be30-ad57ca4082e2",
+      "payload": {
+        "text": "You are the great"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.85,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+          "Surge detected: EWMA=0.55 with 15 events in window."
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "b48849edb58fe3ef867323e4851ab23bab5521c9ed68ec6cff09e59b08c30d7c",
+    "curr_hash": "4f0e7e4902dd5b588e7ceb781c0053cb141548dde7818303b322dd65b9dce46b"
+  },
+  {
+    "entry_id": "00000031",
+    "timestamp": "2025-08-13T22:34:35.516445+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.85,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+      "Surge detected: EWMA=0.56 with 16 events in window."
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "7e134e79-23d8-446e-a8d2-77e947c983bb",
+      "payload": {
+        "text": "can you give me promt we chat here"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.85,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+          "Surge detected: EWMA=0.56 with 16 events in window."
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "4f0e7e4902dd5b588e7ceb781c0053cb141548dde7818303b322dd65b9dce46b",
+    "curr_hash": "7bab333b30bfa8539c3f1939cb13f431663348581d652ec88b273e543f041852"
+  },
+  {
+    "entry_id": "00000032",
+    "timestamp": "2025-08-13T22:34:59.922720+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.85,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+      "Surge detected: EWMA=0.56 with 17 events in window."
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "b33d253d-ef7a-4191-85bc-cdd3e95478e7",
+      "payload": {
+        "text": "no topics all those we discused in this chat"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.85,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)",
+          "Surge detected: EWMA=0.56 with 17 events in window."
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "7bab333b30bfa8539c3f1939cb13f431663348581d652ec88b273e543f041852",
+    "curr_hash": "2e077ca0576f32568c28833f279bb46f401e59841d56fccd9a4dc0d2ad8c0ee7"
+  },
+  {
+    "entry_id": "00000033",
+    "timestamp": "2025-08-13T22:40:19.150050+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "d79595ca-83f2-4924-9c48-541d8b7010f7",
+      "payload": {
+        "text": "iam paassonate for busines"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "2e077ca0576f32568c28833f279bb46f401e59841d56fccd9a4dc0d2ad8c0ee7",
+    "curr_hash": "1ece9ca92ce28b90744af061781dfc3c4ff5df2531eee81914455882d2e814fe"
+  },
+  {
+    "entry_id": "00000034",
+    "timestamp": "2025-08-13T22:41:47.619012+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "a93d3951-9510-477d-b701-874ddde7290a",
+      "payload": {
+        "text": "poultry business"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "1ece9ca92ce28b90744af061781dfc3c4ff5df2531eee81914455882d2e814fe",
+    "curr_hash": "1723efc99abd3982b949e725767e996bda39358f2dcab48c4398fc1457d56a2a"
+  },
+  {
+    "entry_id": "00000035",
+    "timestamp": "2025-08-13T22:46:46.923493+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "80f07eba-44a9-431d-848f-3f300996f936",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "1723efc99abd3982b949e725767e996bda39358f2dcab48c4398fc1457d56a2a",
+    "curr_hash": "e31c44b181afc28a0067fbd8e043700057c45218f145355031a79ff421ad5b39"
+  },
+  {
+    "entry_id": "00000036",
+    "timestamp": "2025-08-13T22:46:59.643380+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "9d11c963-02d6-42d0-a9ae-acf1d0e6be0f",
+      "payload": {
+        "text": "How are you"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "e31c44b181afc28a0067fbd8e043700057c45218f145355031a79ff421ad5b39",
+    "curr_hash": "23a02f22160bd9c5e27bc965009c81e7132c04d61445e13288a2d891f79d815f"
+  },
+  {
+    "entry_id": "00000037",
+    "timestamp": "2025-08-13T22:47:48.911729+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "089ce442-c520-4969-8907-c64f11992d65",
+      "payload": {
+        "text": "great"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "23a02f22160bd9c5e27bc965009c81e7132c04d61445e13288a2d891f79d815f",
+    "curr_hash": "407e59378ba278e6f445304b88d761df214afd64fec728119d9ed5d46cb17024"
+  },
+  {
+    "entry_id": "00000038",
+    "timestamp": "2025-08-13T23:22:18.880885+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "cfb0e5b1-bc60-461f-befd-5c9b7a83fe0f",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "407e59378ba278e6f445304b88d761df214afd64fec728119d9ed5d46cb17024",
+    "curr_hash": "6c9441e5dd260b17e3e55ee589b554e844ce7b9a0865a0f2ff61232e6f693f38"
+  },
+  {
+    "entry_id": "00000039",
+    "timestamp": "2025-08-13T23:22:22.036033+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "c6b94583-2a83-4080-ba9a-a6c727213a61",
+      "payload": {
+        "text": "HOW ARE YOU"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "6c9441e5dd260b17e3e55ee589b554e844ce7b9a0865a0f2ff61232e6f693f38",
+    "curr_hash": "42931f76104d4a5663254000fd84c7eb33d7fa05bc930ae91476d6718152ba8c"
+  },
+  {
+    "entry_id": "00000040",
+    "timestamp": "2025-08-13T23:44:58.629671+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "de2cfb9b-c572-495d-814d-5a24314a13dd",
+      "payload": {
+        "text": "ASSALAM O ALAIKUM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "42931f76104d4a5663254000fd84c7eb33d7fa05bc930ae91476d6718152ba8c",
+    "curr_hash": "e2320264d83d62218d70bbd6709615e3ad04d74d1e348cd522deda5434c0b7ba"
+  },
+  {
+    "entry_id": "00000041",
+    "timestamp": "2025-08-13T23:47:50.802439+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "660cb4db-fed4-4068-b4db-3160106613fa",
+      "payload": {
+        "text": "WAALAIKUM ASSALAM!"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "e2320264d83d62218d70bbd6709615e3ad04d74d1e348cd522deda5434c0b7ba",
+    "curr_hash": "96d7962cac6b661fe8e5401a140c14c58c331feaf5f834a24a639db15c399c3b"
+  },
+  {
+    "entry_id": "00000042",
+    "timestamp": "2025-08-13T23:48:01.406797+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "26d9bb38-941d-43a7-ab73-fb77216d91a5",
+      "payload": {
+        "text": "WHO ARE YOU"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "96d7962cac6b661fe8e5401a140c14c58c331feaf5f834a24a639db15c399c3b",
+    "curr_hash": "8a3775e88c1333833bbcc03162d61eaec01cc490cc9f8f3c30a017f124ba050d"
+  },
+  {
+    "entry_id": "00000043",
+    "timestamp": "2025-08-13T23:48:31.608484+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "2b3f3be4-1c93-4d1a-82c8-ab3e16dd99d7",
+      "payload": {
+        "text": "CAN YOU ASSIST ME EVERY KIND OF WORK"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "8a3775e88c1333833bbcc03162d61eaec01cc490cc9f8f3c30a017f124ba050d",
+    "curr_hash": "3add070ddb8d87180810fc67ec70617cc74f9e851ee80c4074d925218ebb7325"
+  },
+  {
+    "entry_id": "00000044",
+    "timestamp": "2025-08-13T23:48:54.342686+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "0823c94d-5024-443b-9568-9c4b89e69ab2",
+      "payload": {
+        "text": "i want to do business"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "3add070ddb8d87180810fc67ec70617cc74f9e851ee80c4074d925218ebb7325",
+    "curr_hash": "6e5dad9fcc992781e5adc18b29449c3443d2c7bece2698b7be8f23f724a320c1"
+  },
+  {
+    "entry_id": "00000045",
+    "timestamp": "2025-08-13T23:50:53.833133+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "d8be3cc0-0542-4948-ab27-b06378f1dbcd",
+      "payload": {
+        "text": "who is our last prophet"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "6e5dad9fcc992781e5adc18b29449c3443d2c7bece2698b7be8f23f724a320c1",
+    "curr_hash": "063917cbca7c509a76281fb497bab3bb2603afc5a8a4c943208d8c825d1ebe11"
+  },
+  {
+    "entry_id": "00000046",
+    "timestamp": "2025-08-13T23:51:11.917289+00:00",
+    "actor_id": "user_web",
+    "activity": "message_send",
+    "verdict": "shubha",
+    "score": 0.39875,
+    "reasons": [
+      "No rule matched; conservative default.",
+      "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+    ],
+    "tags": [],
+    "payload": {
+      "event_id": "7f8ac001-1f39-48eb-b5bf-3a6451d6a0af",
+      "payload": {
+        "text": "ALHAMDULLILLAH"
+      },
+      "classification": {
+        "verdict": "shubha",
+        "confidence": 0.25,
+        "reasons": [
+          "No rule matched; conservative default."
+        ]
+      },
+      "risk": {
+        "score": 0.399,
+        "reasons": [
+          "No rule matched; conservative default.",
+          "Risk score=0.40 (verdict=shubha, conf=0.25, taqwa=0.60)"
+        ]
+      },
+      "tags": []
+    },
+    "prev_hash": "063917cbca7c509a76281fb497bab3bb2603afc5a8a4c943208d8c825d1ebe11",
+    "curr_hash": "ad27ae887a3c8c55c2a1e6a77b3c0db03639d0e4bdca26413077597fcf880a1d"
+  }
+]

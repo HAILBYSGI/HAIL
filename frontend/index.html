@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>HAIL OS — Your Islamic AI</title>
+  <meta name="description" content="HAIL OS — A divine-aligned assistant for life, learning, work, and wellbeing."/>
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;600;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors:{ ink:'#0a0f1a', night:'#0b1220', gold:'#d4af37', goldsoft:'#c9a531', navy:'#0d1222' },
+          fontFamily:{ kufi:['Reem Kufi','system-ui','Segoe UI','Arial'], scheh:['Scheherazade New','serif'] },
+          boxShadow:{ gold:'0 0 0 1px rgba(212,175,55,.25), 0 14px 40px rgba(212,175,55,.10)' }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass{backdrop-filter:blur(14px); background:rgba(13,18,34,.55); border:1px solid rgba(255,255,255,.06)}
+    .goldring{box-shadow:0 0 0 1px rgba(212,175,55,.28), inset 0 0 30px rgba(212,175,55,.08)}
+    .orb{position:absolute; filter:blur(80px); opacity:.32; pointer-events:none}
+    .section-title{letter-spacing:.02em}
+  </style>
+</head>
+
+<body class="bg-ink text-slate-100 min-h-screen relative overflow-x-hidden font-kufi">
+  <!-- Ambient orbs -->
+  <div class="orb w-[42vw] h-[42vw] -left-[12vw] -top-[12vh] rounded-full bg-gold/20"></div>
+  <div class="orb w-[36vw] h-[36vw] -right-[8vw] bottom-[-18vh] rounded-full bg-amber-400/10"></div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 glass">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="size-9 grid place-items-center rounded-lg bg-gold text-ink font-black goldring">H</div>
+        <div class="leading-tight">
+          <div class="font-semibold tracking-wide">HAIL OS</div>
+          <div class="text-xs text-slate-400">Your Islamic AI</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#usecases" class="hover:text-gold">Use Cases</a>
+        <a href="#about" class="hover:text-gold">About</a>
+        <a href="#contact" class="hover:text-gold">Contact</a>
+        <!-- Launch goes through the email gate -->
+        <a href="/gate" class="ml-2 inline-flex items-center px-3 py-2 rounded-md bg-gold text-ink font-medium hover:brightness-110 shadow-gold">🚀 Launch HAIL AI</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center size-10 rounded-md border border-slate-700/70 hover:bg-night">☰</button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden glass border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 py-3 grid gap-2 text-sm">
+        <a href="#usecases" class="py-2 hover:text-gold">Use Cases</a>
+        <a href="#about" class="py-2 hover:text-gold">About</a>
+        <a href="#contact" class="py-2 hover:text-gold">Contact</a>
+        <a href="/gate" class="mt-2 inline-flex items-center justify-center px-4 py-2 rounded-md bg-gold text-ink font-medium hover:brightness-110">🚀 Launch HAIL AI</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6 py-16 lg:py-24 grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-7 space-y-6">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight section-title">
+          <span class="text-slate-200">“Your Islamic AI.</span><br class="hidden sm:block"/>
+          <span class="text-gold">Secured. Guided. Empowered.”</span>
+        </h1>
+        <p class="text-slate-300/90 text-base lg:text-lg max-w-2xl">
+          A divine-aligned assistant for your life, learning, work, and wellbeing. Built to help you act with ihsān—safely, beautifully, and productively.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/gate" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-gold text-ink font-semibold hover:brightness-110 shadow-gold">🚀 Launch HAIL AI</a>
+          <a href="#usecases" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-slate-700 bg-night hover:bg-slate-900">📚 Explore Use Cases</a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gold/50 text-gold hover:bg-gold/10">✍️ Join as Beta User</a>
+        </div>
+        <div class="pt-4">
+          <div class="inline-flex items-center gap-2 text-sm text-slate-400">
+            <span class="font-scheh text-xl">بِسْمِ ٱللَّٰهِ</span>
+            <span>— Technology that submits to Qur’an & Sunnah.</span>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-5">
+        <div class="glass rounded-2xl p-5 h-full shadow-xl">
+          <div class="text-sm text-slate-300 mb-3">Highlights</div>
+          <ul class="space-y-3 text-slate-200">
+            <li class="flex items-start gap-3"><span class="text-gold">◆</span><span>Qur’an & Sunnah filters on every interaction.</span></li>
+            <li class="flex items-start gap-3"><span class="text-gold">◆</span><span>Guardian & Emergency modes for safe defaults.</span></li>
+            <li class="flex items-start gap-3"><span class="text-gold">◆</span><span>Works across devices, homes, masjids, and business tools.</span></li>
+            <li class="flex items-start gap-3"><span class="text-gold">◆</span><span>No data used for AI training. Your privacy matters.</span></li>
+          </ul>
+          <div class="mt-6 rounded-xl border border-gold/30 p-4 bg-night/70">
+            <div class="text-xs text-slate-400">Live Status</div>
+            <div id="liveStatus" class="text-sm mt-1">Checking health…</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section id="usecases" class="py-14 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6">
+      <h2 class="text-2xl lg:text-3xl font-bold mb-8 section-title">Use Cases</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="glass rounded-2xl p-5">
+          <div class="text-gold mb-1 text-lg">💼 Business Owners</div>
+          <p class="text-sm text-slate-300">Automate ethically. Screen contracts, avoid Riba, and plan with barakah.</p>
+        </div>
+        <div class="glass rounded-2xl p-5">
+          <div class="text-gold mb-1 text-lg">🧕 Homemakers</div>
+          <p class="text-sm text-slate-300">Smart reminders, meal & salah planning, safety checks for content at home.</p>
+        </div>
+        <div class="glass rounded-2xl p-5">
+          <div class="text-gold mb-1 text-lg">📚 Students</div>
+          <p class="text-sm text-slate-300">Learn Deen + Dunya with structured study plans and Qur’anic reflection.</p>
+        </div>
+        <div class="glass rounded-2xl p-5">
+          <div class="text-gold mb-1 text-lg">🕌 Masjid Admins</div>
+          <p class="text-sm text-slate-300">Manage Adhān schedules, lighting, and khutbah compliance tools.</p>
+        </div>
+        <div class="glass rounded-2xl p-5">
+          <div class="text-gold mb-1 text-lg">👨‍👩‍👧 Family Planners</div>
+          <p class="text-sm text-slate-300">Shared calendars, spiritual coaching, and character-building nudges.</p>
+        </div>
+        <div class="glass rounded-2xl p-5">
+          <div class="text-gold mb-1 text-lg">🔐 Individuals</div>
+          <p class="text-sm text-slate-300">Daily dhikr, halal checks, privacy by default—calm, focused living.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-14 lg:py-20 border-t border-slate-800 bg-night/60">
+    <div class="max-w-5xl mx-auto px-4 lg:px-6 text-center">
+      <h2 class="text-2xl lg:text-3xl font-bold mb-4 section-title">About HAIL</h2>
+      <p class="text-slate-300 leading-relaxed">
+        Built with Islamic values, designed to help people live better, think clearer, and stay on the path of ḥaqq.
+        We believe technology must submit to the Qur’an—never override it.
+      </p>
+      <div class="mt-6 inline-flex items-center gap-3 text-slate-400">
+        <span class="font-scheh text-xl">ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ</span>
+        <span>— Guide us to the Straight Path.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6">
+      <div class="glass rounded-2xl p-6 lg:p-8 text-center shadow-gold">
+        <h3 class="text-xl lg:text-2xl font-bold">Ready to try a safer, smarter assistant?</h3>
+        <p class="text-slate-300 mt-2">Launch HAIL now or join the beta to shape what comes next.</p>
+        <div class="mt-4 flex flex-wrap gap-3 justify-center">
+          <a href="/gate" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-gold text-ink font-semibold hover:brightness-110">🚀 Launch HAIL AI</a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gold/50 text-gold hover:bg-gold/10">✍️ Join as Beta User</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="border-t border-slate-800 bg-navy/40">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6 py-10 grid lg:grid-cols-3 gap-8">
+      <div>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="size-8 grid place-items-center rounded-lg bg-gold text-ink font-black goldring">H</div>
+          <div class="font-semibold">HAIL OS</div>
+        </div>
+        <p class="text-sm text-slate-400 max-w-sm">
+          “All actions guided by Qur’an and Sunnah. HAIL never stores personal data for AI training.”
+        </p>
+      </div>
+
+      <div>
+        <div class="font-semibold mb-2">Links</div>
+        <ul class="space-y-2 text-sm text-slate-300">
+          <!-- GitHub removed as requested -->
+          <li><a class="hover:text-gold" href="#privacy">Privacy & Ethics</a></li>
+          <li><a class="hover:text-gold" href="#faq">FAQ</a></li>
+          <!-- Contact/Support opens email composer -->
+          <li>
+            <a class="hover:text-gold"
+               href="mailto:hailbysgi@gmail.com?subject=HAIL%20Support%20Request&body=As-salaam%20alaikum%2C%0A%0AI%20need%20help%20with%3A%20%5Bdescribe%5D%0A%0AEmail%20used%20for%20beta%3A%20"
+               >Contact/Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="font-semibold mb-2">Join the Beta</div>
+        <form class="grid gap-2 max-w-sm" onsubmit="event.preventDefault(); subscribeBeta();">
+          <input id="email" type="email" required placeholder="Email address"
+                 class="w-full rounded-md bg-night border border-slate-700 px-3 py-2 focus:outline-none focus:border-gold/70">
+          <button class="rounded-md bg-gold text-ink py-2 font-semibold hover:brightness-110">Request Invite</button>
+          <div id="betaMsg" class="text-xs text-slate-400"></div>
+        </form>
+      </div>
+    </div>
+    <div class="text-center text-xs text-slate-500 py-4 border-t border-slate-800">
+      ©️ <span id="year"></span> HAIL OS. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    document.getElementById('menuBtn').addEventListener('click', ()=>{
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+
+    // Health ping
+    async function pingHealth(){
+      try{
+        const r = await fetch('/health');
+        const d = await r.json();
+        const txt = d?.status==='ok' ? `Online • Model: ${d.model ?? '—'}` : 'Offline';
+        document.getElementById('liveStatus').textContent = txt;
+      }catch{ document.getElementById('liveStatus').textContent = 'Offline'; }
+    }
+    pingHealth();
+
+    // Join the Beta -> save -> store -> open app
+    async function subscribeBeta(){
+      const el = document.getElementById('email');
+      const msg = document.getElementById('betaMsg');
+      const email = (el.value || '').trim();
+
+      if(!/^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$/.test(email)){
+        msg.textContent = 'Please enter a valid email.'; return;
+      }
+
+      try{
+        const res = await fetch('/beta_signup', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({email})
+        });
+        const data = await res.json();
+        if(data?.ok){
+          // remember and go straight to the assistant
+          localStorage.setItem('hail_email', email);
+          msg.textContent = 'Saved ✓ Opening HAIL…';
+          setTimeout(()=>{ window.location.href = '/app'; }, 400);
+        }else{
+          msg.textContent = data?.message || 'Submission failed.';
+        }
+      }catch(e){
+        msg.textContent = 'Network error. Please try again.';
+      }
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
