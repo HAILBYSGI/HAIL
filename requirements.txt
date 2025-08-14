@@ -1,0 +1,8 @@
+HAIL/
+  core/
+  frontend/
+  hail_data/
+  requirements.txt   ← here
+  .gitignore
+  LICENSE
+  ...
